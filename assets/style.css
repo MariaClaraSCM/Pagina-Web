@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sour Gummy', sans-serif;
+    line-height: 1.8vw;
+}
+
+body {
+    background-color: #d5f2ff;
+    color: #08506f;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 2.5vw 0;
+}
+
+table {
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+    border-radius: .3vw; /* Arredonda as bordas */
+    overflow: hidden; /* Garante que as células sigam o arredondamento */
+  }
+
+h2,
+b,
+.hab-li {
+    color: #000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: #08506f;
+    color: #d5f2ff;
+    padding: 2vw;
+    position: fixed;
+}
+
+.ul-nav {
+    display: flex;
+    gap: 2vw;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #d5f2ff;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#caixa {
+    width: 80%;
+    background-color: #fff;
+    padding: 0 2vw;
+    border-radius: 2vw;
+    box-shadow: 0 0 2vw #08506f;
+    margin: 5.8vw 0 0 0;
+}
+
+section {
+    margin: 2.5vw 0 0 0;
+}
+
+td,
+th {
+    padding: .5vw;
+    border: .2vw solid #08506f;
+    border-radius: .3vw;
+}
+
+#Res {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin: 2vw 0;
+}
+
+#Res img {
+    border-radius: 50%;
+    box-shadow: 0 0 3vw #08506f;
+    border: .15vw #fff solid;
+}
+
+.Ajuste picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vw 0 1vw 0;
+}
+
+#Resumo {
+    width: 58%;
+    display: grid;
+}
+
+#Resumo p {
+    text-align: justify;
+}
+
+.hab-li,
+#hab ol {
+    display: inline-flex;
+    gap: .5vw;
+}
+
+#Tab-hab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+th {
+    background-color: #08506f;
+    color: #d5f2ff;
+}
+
+.cor {
+    background-color: #d5f2ff;
+}
+
+.ajuste-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 10vw;
+}
+
+form{
+    padding: 2vw;
+    border: .2vw solid;
+    border-radius: 3vw;
+    box-shadow: 0vw 0vw 1vw #08506f;
+    color: #000;
+    margin: 0 0 4vw 0;
+}
+
+input, textarea, select, fieldset{
+    border: .1vw solid #08506f;
+    padding: .4vw;
+}
+
+fieldset label, select, textarea, .input-w{
+    color: #08506f;
+}
+
+.input-w{
+    width: 30vw;
+    height: 1.5vw;
+    border-radius: .3vw;
+}
+
+select{
+    width: 14vw;
+    text-align: center;
+    border-radius: .3vw;
+}
+
+input:focus {
+    outline: none;
+  }
+
+textarea:focus{
+    outline: none;
+}
+
+button{
+    font-size: 2vw;
+    background-color: #08506f;
+    color: #d5f2ff;
+    padding: .5vw;
+    border-radius: .5vw;
+    border: none;
+}
+
+#Redes{
+    background-color: #08506f;
+}
+
+#Redes h2{
+    padding: 1.5vw 0 0 0;
+}
+
+.ul-redes{
+    display: flex
+    ;
+        padding: 2vw 1vw;
+        justify-content: space-around;
+        align-items: center;
+        margin: -2vw 0 0 0;
+}
+
+footer p{
+    color: #d5f2ff;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+}
