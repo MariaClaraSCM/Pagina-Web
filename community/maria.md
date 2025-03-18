@@ -2,6 +2,9 @@
 
 #### Técnica em Desenvolvimento de Sistemas | HTML | CSS | JavaScript | React | React Native | C# | SQL
 <i>Desenvolvimento de Software Multiplataforma - 1/6</i>
+
+<br/>
+
 <i>(São Vicente, SP - Brasil)</i>
 
 [![Perfil DIO](https://img.shields.io/badge/-Meu%20Perfil%20na%20DIO-0077B5?style=for-the-badge&logo=gitbook&logoColor=white)](https://web.dio.me/users/mariacmagalhaess?tab=achievements)
