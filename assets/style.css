@@ -220,6 +220,6 @@ footer p{
 .footer{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1vw 2vw;
 }
